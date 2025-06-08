@@ -127,6 +127,7 @@ export default function PricingSection(props: Product[]) {
                   ? "ring-2 ring-orange-500 shadow-2xl shadow-orange-500/20"
                   : "hover:border-gray-600"
               }`}
+              key={index}
             >
               {plan.isPopular && (
                 <Badge className="absolute -top-3 right-4 bg-orange-500 hover:bg-orange-600 text-white ">
